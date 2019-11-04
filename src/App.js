@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import HomeScreen from './components/home_screen/HomeScreen'
-import logo from './logo.svg';
 import './App.css';
 import './styles.css';
 const AppScreen = {

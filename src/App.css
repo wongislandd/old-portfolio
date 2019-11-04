@@ -17,8 +17,29 @@
   color: white;
 }
 
+ul.browser-default li {
+  list-style-type: initial;
+}
+
+div{
+  margin: 5%;
+}
+
+.category{
+  font-weight: bold;
+}
+
+.description{
+  font-size: 90%;
+  padding-top: 1%;
+  font-style: italic;
+}
+
 .App-link {
   color: #09d3ac;
 }
 
 
+#virtualMcSlapCard{
+  background-image: url("./background.jpeg");
+}
