@@ -26,6 +26,7 @@ export default class MyLifeTimeline extends Component {
     <h3>Started my journey as a human.</h3>
   </TimelineItem>
   <TimelineItem
+    className = "TimelineBox"
     key="002"
     dateText="2004 – 2011"
     dateInnerStyle={{ background: Colors.BLUE, color: Colors.WHITE }}
@@ -39,9 +40,14 @@ export default class MyLifeTimeline extends Component {
   >
     <h3 style={{ color: Colors.BLACK }}>William Sidney Mount</h3>
     <h5 className="description">Elementary School</h5>
-    <p>Not much to say here.</p>
+    <p>Not much to say about school here. My love for computers started here though. 
+       My dad was a gamer and I grew into it as we played single player games together.
+       This gave me a lot of exposure to just general-usage on computers and in the following years
+       I'd spend more time gaming than I probably should have.
+    </p>
   </TimelineItem>
   <TimelineItem
+     className = "TimelineBox"
      key="003"
      dateText="2011 – 2017"
      dateInnerStyle={{ background: Colors.GREEN, color: Colors.WHITE }}
@@ -71,6 +77,7 @@ export default class MyLifeTimeline extends Component {
       </ul>
   </TimelineItem>
   <TimelineItem
+    className = "TimelineBox"
     key="005"
     dateText="07/2017 – Present"
     dateInnerStyle={{ background: Colors.LIGHTBLUE }}
@@ -92,6 +99,7 @@ export default class MyLifeTimeline extends Component {
     </ul>
   </TimelineItem>
   <TimelineItem
+    className = "TimelineBox"
     key="006"
     dateText="07/2017 – Present"
     dateInnerStyle={{ background: Colors.RED }}
@@ -122,6 +130,7 @@ export default class MyLifeTimeline extends Component {
      </ul>
   </TimelineItem>
   <TimelineItem
+    className = "TimelineBox"
     key="007"
     dateText="05/2019"
     dateInnerStyle={{ background: Colors.PURPLEISH }}
@@ -159,6 +168,7 @@ export default class MyLifeTimeline extends Component {
 
   </TimelineItem>
   <TimelineItem
+    className = "TimelineBox"
     key="008"
     dateText="06/2019"
     dateInnerStyle={{ background: Colors.GREEN }}
@@ -203,6 +213,7 @@ export default class MyLifeTimeline extends Component {
     </ul>
   </TimelineItem>
   <TimelineItem
+    className = "TimelineBox"
     key="009"
     dateText="08/2019"
     dateInnerStyle={{ background: Colors.BEIGE }}
@@ -240,6 +251,7 @@ export default class MyLifeTimeline extends Component {
     </ul>
   </TimelineItem>
   <TimelineItem
+    className = "TimelineBox"
     key="010"
     dateText="Present"
     dateInnerStyle={{ background: Colors.TAN }}
