@@ -40,10 +40,14 @@ export default class MyLifeTimeline extends Component {
   >
     <h3 style={{ color: Colors.BLACK }}>William Sidney Mount</h3>
     <h5 className="description">Elementary School</h5>
-    <p>Not much to say about school here. My love for computers started here though. 
-       My dad was a gamer and I grew into it as we played single player games together.
-       This gave me a lot of exposure to just general-usage on computers and in the following years
-       I'd spend more time gaming than I probably should have.
+    <p>Not much to say about school here so I'll use it as an opportunity to talk about my childhood.
+       My love for computers started when I was young. My dad was a gamer and I grew into it as we played single player games together.
+       He would claim his left hand wasn't too ampidextrous so I'd always control the keyboard.
+    </p>
+    <p>
+       Towards the end of elementary school I was given an old laptop which I tried my hardest to
+       make it run as well as possible. This gave me a lot of exposure to just general-usage with computers and in the following years
+       I'd probably spend more time gaming than I should have.
     </p>
   </TimelineItem>
   <TimelineItem
@@ -119,7 +123,8 @@ export default class MyLifeTimeline extends Component {
          <li>- Learned important design practices used to create efficient 
              maintainable, scalable, and interactive software.
          </li>
-         <li>- Used Java, Python, MIPS Assembly, Javascript/HTML/CSS, and O'Caml</li>
+         <li>- Used languages Java, Python, MIPS Assembly, Javascript/HTML/CSS, and O'Caml</li>
+         <li>- Using technologies React/Redux/Firebase to create a todo-list web application.</li>
      </ul>
      <ul><span className = "category">League of Legends E-Sports Team</span>
              <ul>
