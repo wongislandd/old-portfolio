@@ -27,6 +27,11 @@ div{
 
 .category{
   font-weight: bold;
+  /*background-color: rgba(175,34,34,.8);
+  border: 2px transparent black;
+  border-radius: 25px;
+  padding: 2.5px;
+  margin-bottom: 5px;*/
 }
 
 .description{
@@ -37,6 +42,13 @@ div{
 
 .App-link {
   color: #09d3ac;
+}
+
+.tag{
+  background-color: rgba(175,34,34,.8);
+  float: left;
+  padding: 10px;
+  color: white;
 }
 
 
