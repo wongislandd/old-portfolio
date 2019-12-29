@@ -270,11 +270,11 @@ export default class MyLifeTimeline extends Component {
   <TimelineItem
     className = "TimelineBox"
     key="010"
-    dateText="Present"
+    dateText="06/2020-08/2020"
     dateInnerStyle={{ background: Colors.TAN }}
     style={{ color: Colors.TAN }}
   >
-    <h3>Looking for a Summer internship or research opportunity.</h3>
+    <h3>Interning at Lowes Corporate.</h3>
   </TimelineItem>
   </Timeline>   
               </div>
