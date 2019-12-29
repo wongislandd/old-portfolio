@@ -83,7 +83,7 @@ export default class MyLifeTimeline extends Component {
   <TimelineItem
     className = "TimelineBox"
     key="005"
-    dateText="07/2017 – Present"
+    dateText="2014 – 2018"
     dateInnerStyle={{ background: Colors.LIGHTBLUE }}
     style= {{ color: Colors.LIGHTBLUE}}
     bodyContainerStyle={{
@@ -123,7 +123,8 @@ export default class MyLifeTimeline extends Component {
          <li>- Learned important design practices used to create efficient 
              maintainable, scalable, and interactive software.
          </li>
-         <li>- Used Java, Python, MIPS Assembly, Javascript/HTML/CSS, and O'Caml</li>
+         <li>- Used languages Java, Python, MIPS Assembly, Javascript/HTML/CSS, and O'Caml</li>
+         <li>- Using technologies React/Redux/Firebase to create a todo-list web application.</li>
      </ul>
      <ul><span className = "category">League of Legends E-Sports Team</span>
              <ul>
@@ -166,9 +167,15 @@ export default class MyLifeTimeline extends Component {
                to what's going on.
          </li>
     </ul>
-    <ul><span className = "category">Technologies Used</span>
-        <li>- Javascript, Discord.js, Enmap, Amazon Web Services</li>
-    </ul>
+    <span className = "category">Technologies Used</span>
+    <ul className ="technologies">
+          <li className="tag">Javascript</li>
+          <li className="tag">Discord.js </li>
+          <li className="tag">Enmap</li>
+          <li className="tag">Amazon Web Services</li>
+      </ul>
+    
+    
 
   </TimelineItem>
   <TimelineItem
@@ -212,8 +219,11 @@ export default class MyLifeTimeline extends Component {
          <li>- Android Studio is really interesting, but it took many YouTube videos to figure it out.
          </li>
     </ul>
-    <ul><span className = "category">Technologies Used</span>
-        <li>- Java, SQLite, Android Studio</li>
+    <span className = "category">Technologies Used</span>
+    <ul className ="technologies">
+        <li className="tag"> Java </li>
+        <li className="tag"> SQLite</li>
+        <li className="tag"> Android Studio</li>
     </ul>
   </TimelineItem>
   <TimelineItem
@@ -250,8 +260,11 @@ export default class MyLifeTimeline extends Component {
                as though I can create something great.
          </li>
     </ul>
-    <ul><span className = "category">Technologies Used</span>
-        <li>- Java, jsoup, Android Studio,  </li>
+    <span className = "category">Technologies Used</span>
+    <ul>
+        <li className="tag">Java</li>
+        <li className="tag">Jsoup</li>
+        <li className="tag">Android Studio</li>
     </ul>
   </TimelineItem>
   <TimelineItem
