@@ -268,13 +268,19 @@ export default class MyLifeTimeline extends Component {
     </ul>
   </TimelineItem>
   <TimelineItem
-    className = "TimelineBox"
-    key="010"
-    dateText="06/2020-08/2020"
-    dateInnerStyle={{ background: Colors.TAN }}
-    style={{ color: Colors.TAN }}
+     className = "TimelineBox"
+     key="010"
+     dateText="05/2020"
+     dateInnerStyle={{ background: Colors.BLUE }}
+     style={{ color: Colors.BLUE }}
+     bodyContainerStyle={{
+       background: '#ddd',
+       padding: '20px',
+       borderRadius: '8px',
+       boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+     }}
   >
-    <h3>Interning at Lowes Corporate.</h3>
+    <h3> Interning at Lowes Corporate.</h3>
   </TimelineItem>
   </Timeline>   
               </div>
