@@ -94,8 +94,8 @@ export default class MyLifeTimeline extends Component {
       }}
   >
     <h3>Summer Camp Counseling</h3>
-    <div><a href="https://www.commonpointqueens.org">Central Queens Y</a> (Summers 2014-2017)</div>
-    <div><a href="https://citgch.org/">Church in the Gardens</a> (Summers 2017-2018)</div>
+    <div><a href="https://www.commonpointqueens.org" target="_blank">Central Queens Y</a> (Summers 2014-2017)</div>
+    <div><a href="https://citgch.org/" target="_blank">Church in the Gardens</a> (Summers 2017-2018)</div>
     <ul>
         <li>- Led large groups of children ranging between the ages of 5-7</li>
         <li>- Learned how to optimally designate work between co-counselors and myself based on strengths.</li>
@@ -128,8 +128,8 @@ export default class MyLifeTimeline extends Component {
      </ul>
      <ul><span className = "category">League of Legends E-Sports Team</span>
              <ul>
-                 <li>- Competed as a player in the official <a href="https://nexus.leagueoflegends.com/en-us/esports/search/college/">Riot tournament</a>.</li>
-                 <li>- Earned a $2,000 scholarship for <a href="https://news.stonybrook.edu/student-spotlight/sbus-league-of-legends-team-goes-virtually-undefeated/">placing 3rd in the Eastern conference</a>.</li>
+                 <li>- Competed as a player in the official <a href="https://nexus.leagueoflegends.com/en-us/esports/search/college/" target="_blank">Riot tournament</a>.</li>
+                 <li>- Earned a $2,000 scholarship for <a href="https://news.stonybrook.edu/student-spotlight/sbus-league-of-legends-team-goes-virtually-undefeated/" target="_blank">placing 3rd in the Eastern conference</a>.</li>
                  <li>- Learned a lot about effective communication and personal growth.</li>
              </ul>
      </ul>
@@ -151,8 +151,8 @@ export default class MyLifeTimeline extends Component {
     <h5 className="description">A scheduling bot created using Discord.js.</h5>
     <ul><span className = "category">Description</span>
          <li>- Virtual McSlap was created for my collegiate e-sport's team discord. The bot is able to
-               store matches in an <a href="https://www.npmjs.com/package/enmap">Enmap</a> and can display a formatted upcoming schedule as well as alert players when
-               a match is coming up shortly. See more about it <a href="https://imgur.com/a/jIYuI2x">here</a>. </li>
+               store matches in an <a href="https://www.npmjs.com/package/enmap" target="_blank">Enmap</a> and can display a formatted upcoming schedule as well as alert players when
+               a match is coming up shortly. See more about it <a href="https://imgur.com/a/jIYuI2x" target="_blank">here</a>. </li>
          <li>- The bot is deployed on Amazon Web Services and is used by my own team and some friends.</li>
     </ul>
     <ul><span className = "category">Takeaways</span>
@@ -198,10 +198,10 @@ export default class MyLifeTimeline extends Component {
                have allocated for food and question where it went. Also, some of my friends never bring their wallets and I'd
                spot them and try really hard to remember their debts. Simple Finance Log solves both these problems.
          </li>
-         <li>- The app was created in Android Studio and uses <a href="https://www.sqlite.org/index.html">SQLite</a> to keep track of purchases and allows users to view their spending by the day/week and provides
+         <li>- The app was created in Android Studio and uses <a href="https://www.sqlite.org/index.html" target="_blank">SQLite</a> to keep track of purchases and allows users to view their spending by the day/week and provides
                insight on what they're spending on.
          </li>
-         <li>- Simple Finance Log is on the Google Play Store! Find it <a href="https://play.google.com/store/apps/details?id=com.SimpleFinApp.myapplication">here</a>.</li>
+         <li>- Simple Finance Log is on the Google Play Store! Find it <a href="https://play.google.com/store/apps/details?id=com.SimpleFinApp.myapplication" target="_blank">here</a>.</li>
     </ul>
     <ul><span className = "category">Takeaways</span>
          <li>- I originally planned on using SQL and then realized the biggest benefit of that would be if I had account that
@@ -242,12 +242,12 @@ export default class MyLifeTimeline extends Component {
     <h3>Started Sale Scraper (WIP)</h3>
     <h5 className="description">An Android App that reads the sale pages of several popular clothing brands</h5>
     <ul><span className = "category">Description</span>
-         <li>- The app uses <a href="https://jsoup.org/">jsoup</a> to parse through and display clothing sales. The idea is 
+         <li>- The app uses <a href="https://jsoup.org/" target="_blank">jsoup</a> to parse through and display clothing sales. The idea is 
               that if I knew I wanted a blue shirt, I can search through all the sites at once and there will be a uniform format
               of all the sites in one place. 
           </li>
           <li> - Still a Work In Progress, kind of brushed this one to the side for a bit. Will continue if I find time but check it
-               out <a href="https://imgur.com/a/rn7f5kE">here</a> until then.
+               out <a href="https://imgur.com/a/rn7f5kE" target="_blank">here</a> until then.
           </li>
     </ul>
     <ul><span className = "category">Takeaways</span>
@@ -268,8 +268,52 @@ export default class MyLifeTimeline extends Component {
     </ul>
   </TimelineItem>
   <TimelineItem
+    className = "TimelineBox"
+    key="010"
+    dateText="02/2020"
+    dateInnerStyle={{ background: Colors.PURPLEISH }}
+    style={{ color: Colors.PURPLEISH }}
+    bodyContainerStyle={{
+      background: '#ddd',
+      padding: '20px',
+      borderRadius: '8px',
+      boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+    }}
+  >
+    <h3>Food with Friends</h3>
+    <h5 className="description">Winner of the Most Innovative Hack at the <a href="https://hackhealth-2020.devpost.com/submissions" target="_blank">HackHealth 2020 Hackathon</a></h5>
+    <ul><span className = "category">Description</span>
+         <li>- The category of the Hackathon was health so my team and I decided to tackle mental health on campus. Food with Friends is is an android application which utilizes 
+           a simple user interface and a Firebase database in the backend. Stony Brook University students can check-in at the dining locations. Other students using the app can
+           see this and an arrangement to meet and eat can be made.
+          </li>
+          <li> - The idea is to encourage social eating. Classes can be difficult and taxing on a student's mental health. Food can bring people together in a natural and accessible way.
+            By providing the tools to have students eat together, we hope to destress students and boost their mental health.
+          </li>
+    </ul>
+    <ul><span className = "category">Takeaways</span>
+         <li>- I thought of the concept for Food with Friends in my freshman year at Stony Brook. At this time, I had no knowledge of what to do to make it happen
+           and the furthest I got with it was a Wireframe of the app in an Intro to Design class. Fast forward nearly two years later and I've learned the tools to 
+           realize my idea. Breathing my dream into reality was an extremely fufilling experience and it made my college career up until this point come full circle.
+           This is the feeling I love the most when it comes to app development.
+         </li>
+         <li>
+           - I worked with my friends on this. Some of them didn't know how to use Android Studio or Github. Additionally, I haven't had much experience using Github in
+           a group setting until this point. In showing them how to do basic commits/pushs/branches, I solidified the knowledge I had on Git.
+         </li>
+         <li>- Firebase is an extremely useful and accessible backend service. I look forward to using it more on future projects.
+         </li>
+    </ul>
+    <span className = "category">Technologies Used</span>
+    <ul>
+        <li className="tag">Firebase</li>
+        <li className="tag">Java</li>
+        <li className="tag">Android Studio</li>
+    </ul>
+  </TimelineItem>
+  <TimelineItem
      className = "TimelineBox"
-     key="010"
+     key="011"
      dateText="05/2020"
      dateInnerStyle={{ background: Colors.BLUE }}
      style={{ color: Colors.BLUE }}
