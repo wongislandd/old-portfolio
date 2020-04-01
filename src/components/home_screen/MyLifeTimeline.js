@@ -270,6 +270,39 @@ export default class MyLifeTimeline extends Component {
   <TimelineItem
     className = "TimelineBox"
     key="010"
+    dateText="12/2019"
+    dateInnerStyle={{ background: Colors.RED }}
+    style={{ color: Colors.RED }}
+    bodyContainerStyle={{
+      background: '#ddd',
+      padding: '20px',
+      borderRadius: '8px',
+      boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+    }}
+  >
+    <h3>Wireframe Maker</h3>
+    <h5 className="description">Final Project for My Web Development Course</h5>
+    <ul><span className = "category">Description</span>
+         <li>- The wireframer is a react-redux-firebase application that allows users to create, edit, save, and delete wireframes. A wireframe is a layout 
+           that is used in the development phase of many applications to get a rough idea of where certain text boxes / containers need to be. </li>
+         <li>- I left the database available for read/writes indefinetly and set up a test account for anyone who wants to try it out. Check it out on my <a href="https://github.com/cwong51799/Wireframer-Project" target="_blank">Github!</a></li>
+    </ul>
+    <ul><span className = "category">Takeaways</span>
+         <li>- The requirements for this project were mostly functionality based. A lot of the design was up to each individual student developer. I had a lot of 
+           fun working on this one. I got to mess around with components, color schemes, and tried to get all the alignment and layout just right. From this
+           project I realized that web development could be a passion of mine.
+         </li>
+    </ul>
+    <span className = "category">Technologies Used</span>
+    <ul>
+        <li className="tag">Firebase</li>
+        <li className="tag">React</li>
+        <li className="tag">Javascript</li>
+    </ul>
+  </TimelineItem>
+  <TimelineItem
+    className = "TimelineBox"
+    key="010"
     dateText="02/2020"
     dateInnerStyle={{ background: Colors.PURPLEISH }}
     style={{ color: Colors.PURPLEISH }}
